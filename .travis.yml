@@ -34,7 +34,7 @@ jobs:
         - BUILD_TYPE="docker"
         - DOCKER_IMG="qtio"
 
-   - os: linux
+    - os: linux
       dist: bionic
       services: docker
       compiler: gcc
